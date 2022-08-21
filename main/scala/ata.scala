@@ -2,6 +2,7 @@ import scala.annotation.switch
 object ata {
   //Dinero que se maneja en tienda
   var dinero: List[Int] = List(100,50,10)
+  var cangrejo :String ="hola"
   var productos: List[Int] = List(270,340,390)
   //plata version pro
   def countChange(money2: Int, coins: List[Int], cost :Int): String = {
