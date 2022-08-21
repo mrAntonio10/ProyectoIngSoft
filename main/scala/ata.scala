@@ -33,9 +33,6 @@ object ata {
     }
     do{
       println("Ingrese moneda")
-       println("introduzca algo :D" );
-       println("introduzca algo :D" );
-       println("introduzca algo :D" );
       val num = scanner.nextInt()
       plata = plata + num
       cont = num
