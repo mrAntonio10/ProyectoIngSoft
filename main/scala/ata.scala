@@ -20,7 +20,6 @@ object ata {
   val costo : Int = 0
   var cont=0
   var plata = 0
-  var perro=""
   var change :List[Int]= List(100,50,10)
   def main(args: Array[String]): Unit = {
     println("introduzca algo :D" );
@@ -34,6 +33,9 @@ object ata {
     }
     do{
       println("Ingrese moneda")
+       println("introduzca algo :D" );
+       println("introduzca algo :D" );
+       println("introduzca algo :D" );
       val num = scanner.nextInt()
       plata = plata + num
       cont = num
