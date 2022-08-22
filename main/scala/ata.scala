@@ -4,7 +4,7 @@ object ata {
   var dinero: List[Int] = List(100,50,10)
   var productos: List[Int] = List(270,340,390)
   //plata version pro
-  def countChange(money2: Int, coins: List[Int], cost :Int): String = {
+  def CountChange(money2: Int, coins: List[Int], cost :Int): String = {
     //plata - costo producto
       val money :Int = money2-cost
     println("se restó y te debemos: " +money)
